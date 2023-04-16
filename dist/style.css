@@ -1,0 +1,258 @@
+body {
+    background-color: #333333;
+    margin: 0;
+    
+
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    padding: 0;
+}
+
+a {
+    color: white;
+    border: solid 2px #333333;
+}
+
+article a:hover {
+    border-bottom: solid 2px white;
+    border-right: solid 2px white;
+}
+
+span {
+    color: white;
+}
+
+.coloredspan {
+    color: #E5B2CA;
+}
+
+header, section, footer {
+    max-width: 1140px;
+    padding: 2em;
+    margin: auto;
+}
+
+.navigation {
+    display: block;
+    position: fixed;
+    left: 0;
+}
+
+.menulogo {
+    display: block;
+    width: 20px;
+    height: 20px;
+    content: "";
+    background-repeat: no-repeat;
+    margin-left: 4em;
+    margin-bottom: 1em;
+}
+
+.menulogo-fb {
+    background-image: url(facebook-f-brands.svg);
+}
+
+.menulogo-tw {
+    background-image: url(twitter-brands.svg);
+}
+
+.menulogo-ig {
+    background-image: url(instagram-brands.svg);
+}
+
+.menulogo-sh {
+    background-image: url(share-alt-solid.svg);
+}
+
+.block-background {
+    background-color: #222222;
+    padding: 1em;
+    z-index: -1;
+}
+
+.h-flex {
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+    height: 5em;
+    text-align: center;
+}
+
+.h-flex__item {
+    display: block;
+    flex: 1;
+    max-height: 5em;
+    margin-bottom: 0;
+    
+    
+}
+
+.h-flex__item-mag {
+    margin-right: 0;
+    padding-right: 0;
+    padding-top: 1em;
+    text-align: right;
+}
+
+.box-shadow-menu {
+    position: relative;
+    padding-left: 1.25em;
+}
+
+.box-shadow-menu:before {
+    content: "";
+    position: absolute;
+    margin-top: 1em;
+    left: 0;
+    top: 0.25em;
+    width: 2em;
+    height: 0.3em;
+    background: white;
+    box-shadow: 
+        0 0.7em 0 0 white,
+        0 1.4em 0 0 white;
+}
+
+.b-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.b-flex__item {
+    flex: 1;
+}
+
+.b-flex__item-large {
+    display: block;
+    flex: 3;
+    position: relative;
+    
+    height: 24em;
+    width: 100%;
+
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.b-flex__item-small {
+    display: block;
+    flex: 1;
+    position: relative;
+    
+    height: 15em;
+    width: 100%;
+
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.b-flex__item-large-a1 {
+    background-image: linear-gradient(to bottom, transparent, transparent, black),url(article1.jpg);
+}
+
+.b-flex__item-small-a2 {
+    background-image: linear-gradient(to bottom, transparent, transparent, black),url(article2.jpg);
+}
+
+.b-flex__item-small-a3 {
+    background-image: linear-gradient(to bottom, transparent, transparent, black),url(article3.jpg);
+}
+
+.b-flex__item-large-a4 {
+    background-image: linear-gradient(to bottom, transparent, transparent, black),url(article4.jpg);
+}
+
+.b-flex__item-banner {
+    display: block;
+    flex: 1;
+    width: 15em;
+
+    border: solid 2px #333333;
+    background-repeat: no-repeat;
+    background: linear-gradient(125deg, #E5B2CA, #7028E4);
+}
+
+.banner-background {
+    background-image: url(space-station-moon-alt-duotone.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30em;
+    
+}
+
+.banner-flex {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    gap: 5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-flex__item {
+    display: block;
+    flex: 1;
+    text-align: center;
+}
+
+.banner-text {
+    font-weight: bold;
+    color: white;
+}
+
+.bottom-text {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+
+    
+    margin-bottom: 3em;
+    margin-left: 2em;
+}
+
+.bottom-text__small {
+    margin-bottom: 1em;
+    margin-left: 2em;
+    margin-right: 5em;
+    font-size: small;
+}
+
+.tag {
+    font-size: small;
+    font-weight: bold;
+    display: inline-block;
+    background-color: #84FAB0;
+    color: black;
+    padding: 0.25em 0.8em 0.25em 0.8em;
+    margin-left: 2em;
+    margin-top: 3em;
+}
+
+.tag-small {
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.tag-tech {
+    color: white;
+    background-color: #7028E4;
+}
+
+.small-flex {
+    display: flex;
+    flex-direction: column;
+
+    gap: 1em;
+}
+
+.logo-small {
+    float: right;
+}
